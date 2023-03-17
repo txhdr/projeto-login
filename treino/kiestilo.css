@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 *{ 
     margin: 0px;
     padding: 0px;
@@ -35,7 +34,7 @@ section{
 }
 
 div#imagem{
-    background-image: url(imagens/abstrato.jpg);
+    background-image: url(../imagens/abstrato.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
