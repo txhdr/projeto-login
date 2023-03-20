@@ -82,10 +82,72 @@ section#login > div#formulario{
 }
 
 
-
-
-/*formulario */
 form{
     margin: 10px;
-    
+}
+
+form  > div.campo{
+    background-color: #33bea7;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+
+
+
+/* botoes */
+
+form > input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #3dbafd;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+form > input[type=submit]:hover{
+    background-color: #33bea7;
+}
+
+form > a.botao{
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 10px;
+
+
+    display: block;
+
+    text-align: center;
+    font-size: 1em;
+
+    color: #277dab;
+    background-color: white;
+    border: 1px solid #3dbafd;
+    border-radius: 7px;
+
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #b7e6ff;
+    text-decoration: underline;
+
+}
+
+form > a.botao > i{
+    font-size: 1em;
+    color: #277dab;
+
 }
