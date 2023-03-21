@@ -81,10 +81,6 @@ section#login > div#formulario{
 }
 
 
-form{
-    margin: 10px;
-}
-
 form  > div.campo{
     background-color: #334abe;
     border: 2px solid #334abe;
@@ -102,6 +98,7 @@ div.campo > label{
 }
 
 div.campo > i{
+    
     color: white;
     font-size: 2em;
     width: 40px;
@@ -116,10 +113,9 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 10px;
-    
     transform: translateY(-40px) translateX(42px);
 }
-
+/*  transform: translateY(-40px) translateX(42px);*/
 div.campo > input:focus-within{
     background-color: white;
 }
