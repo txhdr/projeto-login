@@ -26,6 +26,13 @@
         width: 65%;
     }
 
+    div.campo > input{
+        width: 87%;
+        position: relative;
+        top: -12px;
+        left: 4px;
+    }
+
 }
 
 
@@ -65,5 +72,13 @@
         margin: 2px;
         font-size: 0.8em;
     }
+
+    div.campo > input{
+        width: 90%;
+        position: relative;
+        top: -12px;
+        left: -1px;
+    }
+
     
 } /* Fim da configuração de tela grande*/
