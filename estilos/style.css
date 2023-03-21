@@ -47,12 +47,6 @@ main{
 /*corpo*/
 
 section#login{
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    
-
     background-color: white;
     width: 250px;
     height: 500px;
@@ -64,6 +58,10 @@ section#login{
 
     transition: width .3s, height 0.3s;
     transition-timing-function: ease;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 

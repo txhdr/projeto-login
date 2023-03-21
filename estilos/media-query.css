@@ -26,10 +26,6 @@
         width: 65%;
     }
 
-    section#login > input{
-        
-    }
-
 }
 
 
@@ -42,7 +38,7 @@
 
     section#login{
         width: 950px;
-        height: 340px;
+        height: 320px;
 
     }
 
