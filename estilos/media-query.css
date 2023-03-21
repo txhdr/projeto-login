@@ -9,6 +9,7 @@
 
     section#login{
         width: 80vw;
+        height: 330px;
         
     }
 
@@ -29,7 +30,7 @@
         
     }
 
-} /* Fim da configuração de tablet*/
+}
 
 
 /* configuração de tela grande*/
@@ -41,6 +42,7 @@
 
     section#login{
         width: 950px;
+        height: 340px;
 
     }
 
