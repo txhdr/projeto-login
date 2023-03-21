@@ -108,15 +108,13 @@ div.campo > i{
 div.campo > input{
     background-color: #97dbff;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: 80%;
     height: 95%;
     border: 0px;
     border-radius: 8px;
     padding: 10px;
     position: relative;
-    left: 43px;
-    top: -40px;
-  
+    top: -12px;
     ;
 }
 /* antigo: transform: translateY(-40px) translateX(42px);
