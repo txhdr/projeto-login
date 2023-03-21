@@ -113,9 +113,11 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 10px;
-    transform: translateY(-40px) translateX(42px);
+    left: 43px;
+    position: relative;
+    transform: translateY(-40px);
 }
-/*  transform: translateY(-40px) translateX(42px);*/
+/* antigo: transform: translateY(-40px) translateX(42px);*/
 div.campo > input:focus-within{
     background-color: white;
 }
